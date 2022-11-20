@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 import Link from 'next/link'
+import cssImage from '/../public/LogosForPersonalWebsite/css.png'
 
 
 
@@ -36,7 +37,7 @@ const Skills = () => {
                         <div className='m-auto'>
                             <Image 
                             className=''
-                            src='/../public/LogosForPersonalWebsite/css.png' 
+                            src={cssImage}
                             alt='/'
                             width='64px'
                             height='64px' 
@@ -53,7 +54,7 @@ const Skills = () => {
                         <div className='m-auto'>
                             <Image 
                             className='rounded-xl'
-                            src='/public/LogosForPersonalWebsite/javascript.png'
+                            src='/../public/LogosForPersonalWebsite/javascript.png'
                             alt='/'
                             width='64px'
                             height='64px' 
