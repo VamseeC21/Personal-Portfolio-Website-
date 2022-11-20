@@ -53,7 +53,7 @@ const Skills = () => {
                         <div className='m-auto'>
                             <Image 
                             className='rounded-xl'
-                            src='/public/LogosForPersonalWebsite/javascript.png' 
+                            src='/public/LogosForPersonalWebsite/javascript.png'
                             alt='/'
                             width='64px'
                             height='64px' 
