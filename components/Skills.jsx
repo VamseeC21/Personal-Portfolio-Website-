@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 import Link from 'next/link'
-import cssImage from '/../public/LogosForPersonalWebsite/css.png'
+import cssImage from '/public/LogosForPersonalWebsite/css.png'
 
 
 
