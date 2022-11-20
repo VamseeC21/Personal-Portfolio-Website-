@@ -7,6 +7,7 @@ import {BsYoutube, BsPersonFill, BsGearFill} from 'react-icons/bs'
 import {AiFillHome} from 'react-icons/ai'
 import {GiGears} from 'react-icons/gi'
 import {BiCategory} from 'react-icons/bi'
+import logoVMC from '/../public/LogosForPersonalWebsite/V-removebg-preview-2.png'
 
 const Navbar = () => {
     const [nav, setNav] = useState(false)
@@ -33,7 +34,7 @@ const Navbar = () => {
         <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
             <Link href='/#home'>
                 <Image 
-                    src="/../public/LogosForPersonalWebsite/V-removebg-preview-2.png" 
+                    src={logoVMC}
                     alt="/" 
                     width='125' 
                     height='75'

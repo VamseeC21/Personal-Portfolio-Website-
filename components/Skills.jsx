@@ -1,6 +1,15 @@
 import Image from 'next/image'
 import React from 'react'
 import Link from 'next/link'
+import htmlImage from '/public/LogosForPersonalWebsite/html.png'
+import cssImage from '/public/LogosForPersonalWebsite/css.png'
+import javascriptImage from '/public/LogosForPersonalWebsite/javascript.png'
+import tailwindImage from '/public/LogosForPersonalWebsite/tailwind.png' 
+import nextjsImage from '/public/LogosForPersonalWebsite/icons8-next.js-48-2.png' 
+import pythonImage from '/public/LogosForPersonalWebsite/pythonLogo.png' 
+import javaImage from '/public/LogosForPersonalWebsite/java.png' 
+import swiftImage from '/public/LogosForPersonalWebsite/Swift_logo.png' 
+import swiftuiImage from '/public/LogosForPersonalWebsite/swiftui-96x96_2x.png' 
 
 
 
@@ -18,7 +27,7 @@ const Skills = () => {
                         <div className='m-auto'>
                             <Image 
                             className=''
-                            src='/public/LogosForPersonalWebsite/html.png' 
+                            src={htmlImage}
                             alt='/'
                             width='64px'
                             height='64px' 
@@ -36,7 +45,7 @@ const Skills = () => {
                         <div className='m-auto'>
                             <Image 
                             className=''
-                            src='/public/LogosForPersonalWebsite/css.png'
+                            src={cssImage}
                             alt='/'
                             width='64px'
                             height='64px' 
@@ -53,7 +62,7 @@ const Skills = () => {
                         <div className='m-auto'>
                             <Image 
                             className='rounded-xl'
-                            src='/public/LogosForPersonalWebsite/javascript.png'
+                            src={javascriptImage}
                             alt='/'
                             width='64px'
                             height='64px' 
@@ -70,7 +79,7 @@ const Skills = () => {
                         <div className='m-auto'>
                             <Image 
                             className='bg-[#081642] rounded-xl'
-                            src='/public/LogosForPersonalWebsite/tailwind.png' 
+                            src={tailwindImage}
                             alt='/'
                             width='64px'
                             height='64px' 
@@ -87,7 +96,7 @@ const Skills = () => {
                         <div className='m-auto'>
                             <Image 
                             className='rounded-xl'
-                            src='/public/LogosForPersonalWebsite/icons8-next.js-48-2.png' 
+                            src={nextjsImage}
                             alt='/'
                             width='64px'
                             height='64px' 
@@ -104,7 +113,7 @@ const Skills = () => {
                         <div className='m-auto'>
                             <Image 
                             className='bg-[#1a264c] rounded-xl'
-                            src='/public/LogosForPersonalWebsite/pythonLogo.png' 
+                            src={pythonImage}
                             alt='/'
                             width='64px'
                             height='64px' 
@@ -121,7 +130,7 @@ const Skills = () => {
                         <div className='m-auto'>
                             <Image 
                             className='rounded-xl'
-                            src='/public/LogosForPersonalWebsite/java.png' 
+                            src={javaImage}
                             alt='/'
                             width='64px'
                             height='64px' 
@@ -138,7 +147,7 @@ const Skills = () => {
                         <div className='m-auto'>
                             <Image 
                             className='rounded-xl'
-                            src='/public/LogosForPersonalWebsite/Swift_logo.png' 
+                            src={swiftImage}
                             alt='/'
                             width='64px'
                             height='64px' 
@@ -155,7 +164,7 @@ const Skills = () => {
                         <div className='m-auto'>
                             <Image 
                             className='rounded-xl'
-                            src='/public/LogosForPersonalWebsite/swiftui-96x96_2x.png' 
+                            src={swiftuiImage}
                             alt='/'
                             width='64px'
                             height='64px' 
