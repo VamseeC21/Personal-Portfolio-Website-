@@ -19,7 +19,7 @@ const Skills = () => {
         <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
         <p className='font-bold uppercase text-xl tracking-widest text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-blue-200'><b>Skills</b></p>
             <h2 className='py-4'>What I Can Do</h2>
-            <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-8'>
+            <div className='grid sm: grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-8'>
             
 
                 <div className='p-6 shadow-md shadow-orange-500 rounded-xl hover:scale-110 ease-in duration-100'>

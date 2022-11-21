@@ -4,7 +4,7 @@ import codingPic from '../public/LogosForPersonalWebsite/codingPic.webp'
 
 const About = () => {
   return (
-    <div id='about' className='w-full md:h-screen p-2 flex items-center py-16'>
+    <div id='about' className='w-full md:h-screen p-2 flex items-center py-16 bg-[#150d38]'>
         <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
             <div className='col-span-2'>
                 <p className='font-bold uppercase text-xl tracking-widest text-transparent bg-clip-text bg-gradient-to-r from-purple-700 to-purple-400'><b>About</b></p>

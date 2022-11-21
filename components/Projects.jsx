@@ -7,7 +7,7 @@ import ProjectItem from './ProjectItem'
 
 const Projects = () => {
   return (
-    <div id='projects' className='w-full'>
+    <div id='projects' className='w-full bg-[#150d38]'>
         <div className='max-w-[1240px] mx-auto px-2 py-16'>
         <p className='font-bold uppercase text-xl tracking-widest text-transparent bg-clip-text bg-gradient-to-r from-orange-600 to-orange-100'><b>Projects</b></p>
             <h2 className='py-4'>What I've Built</h2>
@@ -25,6 +25,7 @@ const Projects = () => {
                 projectUrl='/marvelChatbot' 
                 tech='GPT-3'
               />
+              {/* project item empty will go here */}
               
             </div>
 

@@ -18,9 +18,9 @@ const Main = () => {
                     A <span className='text-transparent bg-clip-text bg-gradient-to-r from-blue-700 to-blue-400'>Full-Stack </span> Web Developer
                 </h1>
                 <p className='py-6 text-[#ffffff] max-w-[70%] m-auto'>
-                    I'm a full-stack web <span className='font-bold text-transparent bg-clip-text bg-gradient-to-r from-red-800 to-red-500'>developer </span> specializing in building, and <span className='font-bold text-transparent bg-clip-text bg-gradient-to-r from-orange-700 to-orange-400'>designing </span> 
-                    exceptional digital experiences primarily focussed in <span className='font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-700 to-green-400'>Artficial Intelligence</span>.
-                    Currently, I'm working on building responsive <span className='font-bold text-transparent bg-clip-text bg-gradient-to-r from-yellow-600 to-yellow-400'>frontend</span> web applications 
+                    I'm a full-stack web <span className='font-bold text-transparent bg-clip-text bg-gradient-to-r from-red-800 to-red-500'>developer </span> specializing in building, and <span className='font-bold text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-orange-200'>designing </span> 
+                    exceptional digital experiences primarily focussed in <span className='font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-green-200'>Artficial Intelligence</span>.
+                    Currently, I'm working on building responsive <span className='font-bold text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-yellow-200'>frontend</span> web applications 
                     while learning <span className='font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-700 to-purple-400'>backend </span> 
                     technologies.
                 </p>

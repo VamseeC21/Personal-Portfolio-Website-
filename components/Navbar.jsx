@@ -31,7 +31,7 @@ const Navbar = () => {
   
   return (
     <div className={shadow ? 'fixed w-full h-20 shadow-xl z-[100] bg-gray-900': 'fixed w-full h-20 z-[100] bg-gray-900'}>
-        <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
+        <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16 cursor-pointer'>
             <Link href='/#home'>
                 <Image 
                     src={logoVMC}
@@ -42,31 +42,31 @@ const Navbar = () => {
             </Link>
             
             <div>
-                <ul className='hidden md:flex mr-15 text-gray-200'>
+                <ul className='hidden md:flex mr-15 text-[#c3bdbd]'>
                     <Link href='/'>
                     <li className='flex items-end ml-10 text-xl uppercase hover:text-white'>
-                        <b className='px-2.5'>Home</b>
+                        <b className='px-2.5 underline'>Home</b>
                         <AiFillHome color = '#0ea5e9' size={30}/>
                     </li>
                     </Link>
 
                     <Link href='/#about'>
                     <li className='flex items-end ml-10 text-xl uppercase hover:text-white'>
-                        <b className='px-2.5'>About</b>
+                        <b className='px-2.5 underline'>About</b>
                         <BsPersonFill color= '#facc15' size={30}/>
                     </li>
                     </Link>
 
                     <Link href='/#skills'>
                     <li className='flex items-end ml-10 text-xl uppercase hover:text-white'>
-                        <b className='px-2.5'>Skills</b>
+                        <b className='px-2.5 underline'>Skills</b>
                         <GiGears color= '#14b8a6' size={30}/>
                     </li>
                     </Link>
 
                     <Link href='/#projects'>
                     <li className='flex items-end ml-10 text-xl uppercase hover:text-white'>
-                        <b className='px-2.5'>Projects</b>
+                        <b className='px-2.5 underline'>Projects</b>
                         <BiCategory color= '#a855f7' size={30}/>
                     </li>
                     </Link>
