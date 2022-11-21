@@ -17,7 +17,7 @@ const About = () => {
                     ever since.
                 </p>
                 <p className='py-2 text-[#DDDDDD]'>
-                    Faccinated with how intricate programming can be, I was quickly drawn to 
+                    Fascinated with how intricate programming can be, I was quickly drawn to 
                     learn more. I recently starting learning Web Development with <span className='font-bold text-transparent bg-clip-text bg-gradient-to-r from-yellow-500 to-yellow-300'>NextJS </span> 
                     and <span className='font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-blue-300'>TailWind CSS </span>. 
                     I have also recently sparked an interest in Artificial Intelligence, creating a few projects involving <span className='font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-800 to-purple-500'>NLP </span> and Pitch Detection. 
