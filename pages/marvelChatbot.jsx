@@ -18,10 +18,13 @@ const marvelChatbot = () => {
 
         <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8'>
             <div className='col-span-4'>
-                <p>Project</p>
+                
                 <h2>Overview</h2>
-                <p>
-                    This is a cool project!
+                <p className='py-4'>
+                    This legendary product allows you to have conversations with your favorite Marvel Superheros! Enter a chat 
+                    and Spider Man will respond back! Combining frontend and backend technologies for the first time, I was able to 
+                    learn so much! Powered with GPT-3 and thousands of lines of movie dialogue data, this project 
+                    was surely one of my favorites!
                 </p>
                 <a href="https://www.youtube.com/watch?v=yVvaBroNizw">
                     <button className='px-8 py-2 mt-4 mr-8 shadow-md shadow-gray-600'>Demo</button>

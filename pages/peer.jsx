@@ -18,17 +18,23 @@ const peer = () => {
 
         <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8'>
             <div className='col-span-4'>
-                <p>Project</p>
+                
                 <h2>Overview</h2>
-                <p>
-                    This is a cool project!
+                <p className='py-4'>
+                    Before every succesful product, there is a project spec sheet that contains vital info like the 
+                    problem/solution statements, tech stack, milestones, ect. Without a great product spec sheet, the project is doomed 
+                    from the start. We introduce PEER, a revolutionary product that analyzes and grades product specs. Simply invite
+                    the discord bot to your server, enter in the command followed by the link to your Notion Page containing the 
+                    product spec, and BOOM! All Done! Powered through GPT-3 and the Notion API, this Discord.py Bot is sure 
+                    to help many users!
+
                 </p>
                 <a href="https://www.youtube.com/watch?v=gn_WUHvFJT0">
                     <button className='px-8 py-2 mt-4 mr-8 shadow-md shadow-gray-600'>Demo</button>
                 </a>
 
                 <a href="https://github.com/organization-x/peer-help">
-                <button className='px-8 py-2 mt-4 shadow-md shadow-gray-600'>Code</button>
+                    <button className='px-8 py-2 mt-4 mr-8 shadow-md shadow-gray-600'>Code</button>
                 </a>
             </div>
             <div className='col-span-4 md:col-span-1 shadow-md shadow-gray-600 rounded-xl p-4'>

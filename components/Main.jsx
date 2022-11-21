@@ -11,36 +11,36 @@ const Main = () => {
                 <p className='uppercase text-sm tracking-wideset text-[#ffffff]'>
                     <b>Let's Build something together!</b>
                 </p>
-                <h1 className='py-4 text-[#ffffff]'>
-                    Hi, I'm <span className='text-[#4e48f6]'>Vamsee</span>
+                <h1 className='py-4 text-[#ffffff] '>
+                    Hi, I'm <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-700 to-purple-400'>Vamsee</span>
                 </h1>
                 <h1 className='py-2 text-[#ffffff]'>
-                    A Full-Stack Web Developer
+                    A <span className='text-transparent bg-clip-text bg-gradient-to-r from-blue-700 to-blue-400'>Full-Stack </span> Web Developer
                 </h1>
                 <p className='py-6 text-[#ffffff] max-w-[70%] m-auto'>
-                    I'm a full-stack web developer specializing in building, and designing, 
-                    exceptional digital experiences primarily focussed in Artificial Intelligence.
-                    Currently, I'm working on building responsive front-end web applications 
-                    while learning back-end technologies.
+                    I'm a full-stack web <span className='font-bold text-transparent bg-clip-text bg-gradient-to-r from-red-800 to-red-500'>developer </span> specializing in building, and <span className='font-bold text-transparent bg-clip-text bg-gradient-to-r from-orange-700 to-orange-400'>designing </span> 
+                    exceptional digital experiences primarily focussed in <span className='font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-700 to-green-400'>Artficial Intelligence</span>.
+                    Currently, I'm working on building responsive <span className='font-bold text-transparent bg-clip-text bg-gradient-to-r from-yellow-600 to-yellow-400'>frontend</span> web applications 
+                    while learning <span className='font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-700 to-purple-400'>backend </span> 
+                    technologies.
                 </p>
-                <div className='flex items-center justify-between max-w-[330px] m-auto py-6'>
+                <div className='flex items-center justify-between max-w-[260px] m-auto py-6'>
                     <a href="https://www.linkedin.com/in/vamsee-cheruvu-077784217/">
-                        <div className='rounded-full shadow-md shadow-[#4e48f6] p-6 cursor-pointer hover:scale-110 ease-in duration-150'>
+                        <div className='rounded-full shadow-md shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-150'>
                             <FaLinkedinIn />
                         </div>
                     </a>
                     <a href="https://github.com/VamseeC21?tab=repositories">
-                    <div className='rounded-full shadow-md shadow-[#4e48f6] p-6 cursor-pointer hover:scale-110 ease-in duration-150'>
+                    <div className='rounded-full shadow-md shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-150'>
                         <FaGithub />
                     </div>
                     </a>
-                    <div className='rounded-full shadow-md shadow-[#4e48f6] p-6 cursor-pointer hover:scale-110 ease-in duration-150'>
+                    <div className='rounded-full shadow-md shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-150'>
                         <AiOutlineMail />
                     </div>
-                    <div className='rounded-full shadow-md shadow-[#4e48f6] p-6 cursor-pointer hover:scale-110 ease-in duration-150'>
+                    {/* <div className='rounded-full shadow-md shadow-purple-400 p-6 cursor-pointer hover:scale-110 ease-in duration-150'>
                         <BsYoutube />
-                    </div>
-
+                    </div> */}
                 </div>
             </div>
         </div>
